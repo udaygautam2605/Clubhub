@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-image: url("OIP (6).jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .it {
+            margin-top: 20px;
+            margin-left: 40px;
+            display: grid;
+            align-items: center;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto;
+            row-gap: 4px;
+            column-gap: 50px;
+        }
+
+        button {
+            margin-top:0px;
+            border-radius: 8px;
+            height: 300px;
+            width: 300px;
+            border: none;
+            background-color: transparent;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        button:hover img {
+            filter: brightness(0.8); 
+        }
+
+        button:hover {
+            background-color: orange; 
+        }
+
+        img {
+            border-radius: 8px;
+            height: 300px;
+            width: 300px;
+            padding: 0%;
+            box-shadow: 1px 1px 1px 1px rgb(228, 198, 155);
+            opacity: 0.8;
+            transition: filter 0.2s;
+        }
+
+        .ds,p{
+            color: rgb(219, 191, 79);
+            font-size: 50px;
+            font-weight: bolder;
+            margin-left: 40px;
+            margin-top: 40px;
+            text-shadow: 3px 3px 3px rgb(241, 193, 193);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ds">DANCE CLUBS</div>
+    <div class="it">
+        <a href="suc.html"><button id="s"><img src="sucpic.jpg"></button></a>
+        <a href="lsd.html"><button id="l"><img src="lsdpic.jpg"></button></a>
+        <a href="nbc.html"><button id="n"><img src="nbcpic.jpg"></button></a>
+        <p>SUC</p>
+        <p>LSD</p>
+        <p>NBC</p>
+    </div>
+</body>
+
+</html>

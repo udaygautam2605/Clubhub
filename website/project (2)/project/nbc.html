@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background Page</title>
+    <style>
+        /* Style for the video container */
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            
+        }
+
+        /* Style for the video */
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Style for the content overlay */
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            z-index: 1;
+            height: 100%;
+
+        }
+
+        /* Style for the video details */
+        .details {
+            background-color: rgba(18, 17, 17, 0.61);
+            padding: 20px;
+            border-radius: 10px;
+            height: 90%;
+            margin-top: 12px;
+            width: 80%;
+            border-radius: 40px;
+            box-shadow: 4px;
+        }
+
+        .inductions {
+            background-color: rgba(84, 79, 79, 0.644);
+            padding: 5px;
+            height: 150px;
+            width: 220px;
+            border-radius: 7px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .inductions h2 {
+            margin-bottom: 7px;
+            color: bisque;
+        }
+        .inductions p {
+            padding: 4px;
+        }
+
+        #insta {
+            margin-bottom: 15px;
+        }
+        #insta img{
+            border-radius: 4px;
+        }
+        .Acheievements h2 {
+            margin-top: 8px;
+            margin-bottom: 5px;
+            color: bisque;
+        }
+
+        /* Style for the text in the details */
+        .details h1 {
+            margin-bottom: 10px;
+            margin-top: 0px;
+            text-shadow: 4px;
+            color: bisque;
+        }
+        .detail h1,
+        .details p {
+            margin: 0;
+        }
+        button{
+            background-color: beige;
+            box-shadow: 2px 2px 2px 1px rgb(226, 189, 114);
+            border-radius: 3px;
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="nbc.mp4" type="video/mp4">
+            <!-- Add alternative video formats for compatibility -->
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+            <div class="details">
+                <h1>NIT Bhangra Crew </h1>
+                <p> NIT's BHANGRA CREW (NBC) is the official Bhangra group of NIT Kurukshetra.</p>
+                <div class="Acheievements">
+                    <h2>Acheievements</h2>
+                    <p>Winners at Bhangragarh'19,
+                        Winners at Confluence'22,'19,'18,'16,'15,
+                        Finalist at Mood'17-IIT BOMBAY,
+                        Runner UP at Confluence'23
+                        Runner UP Zeitgeist'18-IIT ROPAR</p>
+                </div>
+                <div class="inductions">
+                    <h2>NBC INDUCTIONS</h2>
+                    <p>
+                        Btech, Mtech, MCA
+                        1st-2nd Yr
+                        11-14 April
+                        OAT 5pm Onwards
+                    </p>
+                    <p>Registration:</p>
+                    <a href="nbcgf.html"><button>Register for Induction</button></a>
+                </div>
+                
+                
+                <div id="insta">
+                    <p>Visit the links:</p>
+                    <p>
+                        <img src="insta_logo.jpeg" height="10px">
+                    <a href="https://www.instagram.com/nit_bhangra_crew?igsh=MWtmbnVweGo5eWQydg==" style="color: rgb(249, 151, 205);">@nit_bhangra_crew</a>
+                    </p>
+                    <p>
+                        <img src="https://static-00.iconduck.com/assets.00/youtube-icon-2048x2048-wiwalbpx.png" height="10px">
+                    <a href="http://www.youtube.com/@nitsbhangracrew7779"  style="color: rgb(249, 151, 205)">NIT's Bhangra Crew</a>
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>Contact details:</p>
+                    <p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR-lzCbt4L2_eXN789Iatp0Q5WTjWcv58OtA&s"  height="10px">
+                    <a href="mailto: nitbhangracrew@gmail.com" style="color:rgb(228, 208, 108)">nitbhangracrew@gmail.com</a>
+                    </p>
+                    <p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREc08kfQWNZd--VUqK2fyY0Wytpp6u3MhjcQ&s" height="10px">
+                    <a href="tel:8950576191" style="color:rgb(228, 208, 108)">8950576191</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

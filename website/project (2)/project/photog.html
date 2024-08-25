@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background Page</title>
+    <style>
+        /* Style for the video container */
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            
+        }
+
+        /* Style for the video */
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Style for the content overlay */
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            z-index: 1;
+            height: 100%;
+
+        }
+
+        /* Style for the video details */
+        .details {
+            background-color: rgba(18, 17, 17, 0.61);
+            padding: 20px;
+            border-radius: 10px;
+            height: 90%;
+            margin-top: 12px;
+            width: 80%;
+            border-radius: 40px;
+            box-shadow: 4px;
+        }
+
+        .inductions {
+            background-color: rgba(84, 79, 79, 0.644);
+            padding: 5px;
+            height: 150px;
+            width: 220px;
+            border-radius: 7px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .inductions h2 {
+            margin-bottom: 7px;
+            color: bisque;
+        }
+        .inductions p {
+            padding: 4px;
+        }
+
+        #insta {
+            margin-bottom: 15px;
+        }
+        #insta img{
+            border-radius: 4px;
+        }
+        .Acheievements h2 {
+            margin-top: 8px;
+            margin-bottom: 5px;
+            color: bisque;
+        }
+
+        /* Style for the text in the details */
+        .details h1 {
+            margin-bottom: 10px;
+            margin-top: 0px;
+            text-shadow: 4px;
+            color: bisque;
+        }
+        .detail h1,
+        .details p {
+            margin: 0;
+        }
+        button{
+            background-color: beige;
+            box-shadow: 2px 2px 2px 1px rgb(226, 189, 114);
+            border-radius: 3px;
+            border: 0px;
+        }
+
+.Acheievements ul{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.events ul{
+
+    margin-top: 0px;
+margin-bottom: 0px;
+}
+.events h2{
+    color: bisque;
+    margin-bottom: 0px;
+}
+
+.container {
+  display: grid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  grid-template-columns:auto auto;
+  align-items: center;
+  margin-left: 150px;
+ column-gap:20px;
+ row-gap: 20px;
+ 
+}
+
+.container img {
+  width:105px;
+  height:50px;
+}
+.sc{
+    font-size:xx-large;
+    color: bisque;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="photog.mp4" type="video/mp4">
+            <!-- Add alternative video formats for compatibility -->
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+            <div class="details">
+                <h1>PHOTOG</h1>
+                <p> 
+                    This is the official club of NIT Kurukshetra responsible for covering all 
+                    the events during various fests (like Confluence, Techspardha, Talent Show),
+                     guest lectures, seminars, etc. 
+                    </p>
+                    
+                
+                    <p id="sc">SHOWCASE</p>
+                   
+                    <div class="container">
+                        <img src="https://nitkkr.ac.in/wp-content/uploads/2022/03/pg1-scaled.jpg" >
+                        <img src="https://nitkkr.ac.in/wp-content/uploads/2022/03/pg3-scaled.jpg">
+                        <img src=" https://nitkkr.ac.in/wp-content/uploads/2022/03/pg2-scaled.jpg">
+                        <img src="https://nitkkr.ac.in/wp-content/uploads/2022/03/pg4-scaled.jpg ">
+                      </div>
+
+                <div class="inductions">
+                    <h2>INDUCTIONS</h2>
+                    <p>
+                        Btech, Mtech, MCA
+                        1st-2nd Yr
+                        11-14 April
+                        OAT 5pm Onwards
+                    </p>
+                    <p>Registration:</p>
+                    <a href="photoggf.html"><button>Register for Induction</button></a>
+                </div>
+                
+                
+                <div id="insta">
+                    <p>Visit the links:</p>
+                    <p>
+                        <img src="insta_logo.jpeg" height="10px">
+                    <a href="https://www.instagram.com/photog.nitkkr?igsh=dHBha2NmZnZ0djVx" style="color: rgb(249, 151, 205);">@photog.nitkkr</a>
+                    </p>
+                    <p>
+                        <img src="https://static-00.iconduck.com/assets.00/youtube-icon-2048x2048-wiwalbpx.png" height="10px">
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCav3u4EWFKY_LdXfI2QVomg&h=ATMwbZttdTavGhbmDskuZmS_8XyD9_ySSrB-wRCqjQiUrBaS9Z7c9ZMbDh_6Zu5IKis5fwEmPBhYc_wl7wb4J8p5poJX51uXWKfgK28PcgT8grZByQefZb58UnAQBcUP7zSQxjCmZPBSZw"  style="color: rgb(249, 151, 205)">PHOTOG</a>
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>Contact details:</p>
+                    <p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR-lzCbt4L2_eXN789Iatp0Q5WTjWcv58OtA&s"  height="10px">
+                    <a href="mailto: StreetUnderconstructionCrew@gmail.com" style="color:rgb(228, 208, 108)">photog@gmail.com</a>
+                    </p>
+                    <p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREc08kfQWNZd--VUqK2fyY0Wytpp6u3MhjcQ&s" height="10px">
+                    <a href="tel:8950576191" style="color:rgb(228, 208, 108)">8950576191</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
